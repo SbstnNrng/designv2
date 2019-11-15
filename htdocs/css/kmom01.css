@@ -14,3 +14,40 @@
 .rm-navbar-max {
     display: none;
 }
+
+.region-header img {
+    display: none;
+}
+
+.region-header-col-1 a {
+    display: none;
+}
+
+.region-header-col-2 {
+    margin
+}
+
+.region-header-col-2 li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.region-header-col-2 a {
+    text-decoration: none;
+}
+
+.region-header-col-2 ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+.footer-column {
+    width: 33%;
+    display: inline-block;
+}
+
+.wrap-all {
+    width: 80%;
+    margin: auto;
+}
