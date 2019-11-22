@@ -1,0 +1,12 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ *//*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */html{overflow-y:scroll;background-color:#fff}body{margin:0;padding:0;color:#333;background-color:#fff;font:100.01%/1 serif}img{max-width:100%}.region-header img{display:none}.region-header-col-1 a{display:none}.region-header-col-2 li{display:inline-block;margin-left:1em;margin-right:1em}.region-header-col-2 a{text-decoration:none}.region-header-col-2 ul{padding-left:0;text-align:center}.footer-column{width:33%;display:inline-block}@media screen and (max-width:1500px){.site-logo{display:none}}.regions .outer-wrap{background-color:#f4e3c9;border:1px solid #e3b774}.regions .inner-wrap{background-color:#f4e0e9;border:1px solid #d995b4}.regions .region-after-main,.regions .region-breadcrumb,.regions .region-columns-above,.regions .region-columns-below,.regions .region-flash,.regions .region-flash-message,.regions .region-footer,.regions .region-footer-column-1,.regions .region-footer-column-2,.regions .region-footer-column-3,.regions .region-header-col-1,.regions .region-header-col-2,.regions .region-header-col-3,.regions .region-main,.regions .region-sidebar-left,.regions .region-sidebar-right{background-color:#b5dce1;border:1px solid #6cbac4;color:#111}
