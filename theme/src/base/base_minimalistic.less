@@ -1,0 +1,71 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+html ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+header a:hover {
+    color: blue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+body a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: gray;
+}
+
+body a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+li a:hover {
+    color: royalblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+.next-previous {
+    display: none;
+}
+
+.fas {
+    color: gray;
+}
+
+.rm-button-face-2 {
+    color: gray;
+}
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
